@@ -1,6 +1,7 @@
 name: Client Docker Image CI
 
 on:
+  workflow_dispatch:
   push:
     branches: ["current"]
     paths:
